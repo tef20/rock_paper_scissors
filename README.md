@@ -1,3 +1,5 @@
 The Odin Project
 -----------------
-https://www.wikihow.com/Play-Rock,-Paper,-Scissors
+Rock, Paper, Scissors game (see: https://www.wikihow.com/Play-Rock,-Paper,-Scissors)
+
+First JS program from scratch.
