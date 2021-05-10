@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<h1>
+			ROCK // PAPER // SCISSORS
+		</h1>
+		<div id="backPanel">
+			<div id="player1MovePanel" class="movePanel"></div>
+			<div id="scoreboard">
+				<div class="panel" id="panel1">Round: <span id="roundNumber"></span></div>
+				<div class="panel" id="panel2">
+					<span id="player1Name" class="playerName">Player1</span>
+					<span id="player1Score" class="scores">0</span> - <span id="player2Score" class="scores">0</span>
+					<span id="player2Name" class="playerName">Player2</span>
+				</div>
+				<div class="panel" id="panel3">
+					<span id="gameMessage">Choose your move...</span>	
+				</div>
+				<div class="panel" id="panel4">
+					<span id="finalMessage"> </span>	
+				</div>
+			</div>
+			<div id="player2MovePanel" class="movePanel"></div>
+		</div>
+		
+
+		<div id="buttons">
+			<div>
+				<button id="rock" data-move="rock">Rock</button>
+			</div>
+			<div>
+				<button id="paper" data-move="paper">Paper</button>
+			</div>
+			<div>
+				<button id="scissors" data-move="scissors">Scissors</button>
+			</div>
+		</div>
+		
+		<script src="script.js"></script>	
+	</body>
+</html>
